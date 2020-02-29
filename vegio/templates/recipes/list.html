@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for key, value in food_list.items %}
+        <br>{{ key }}<br>
+        {% for key2, value2 in value.items %}
+            {{key2}}: {{value2}}<br>
+        {% endfor %}
+    {% endfor %}
+{% endblock %}
