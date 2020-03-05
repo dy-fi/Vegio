@@ -1,3 +1,5 @@
-This will be a restaurant locator and review platform specifically for vegetarians.  My MVP will be
-locating vegetarian options in a given city.  After the MVP if I have time I want to add 
-automatic gps to find relevant restaurants in users' proximity, map integration, and frontend listing filters.  
+This will be a nutrional app specifically for vegetarians to find whether
+a certain food option typically has things they can't eat, and it's nutrional value.  
+
+After the MVP if I have time I want to add to add backwards support so that users can filter by cuisine type and certain ingredients to find
+options at restaurants.  
