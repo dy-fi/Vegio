@@ -1,14 +1,14 @@
 import requests
 import json
 
-import secrets 
+import os
 
 
 # recipe search URL
 recipe_search = "https://api.spoonacular.com/recipes/search"
 recipe_info_base = "https://api.spoonacular.com/recipes/"
 
-apiKey = secrets.get_secret("SPOONABLE_API_KEY")
+apiKey = os.environ.get('SPOONABLE_API_KEY')
 
 
 def get_food_recipe(food, exclude=None, intolerances=None):
