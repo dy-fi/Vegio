@@ -1,1 +1,1 @@
-web: gunicorn vegio.vegio.wsgi
+web: gunicorn Vegio.wsgi --log-file -
