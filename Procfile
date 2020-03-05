@@ -1,1 +1,1 @@
-web: gunicorn Vegio-df.wsgi --log-file -
+web: gunicorn Vegio.wsgi --log-file -
