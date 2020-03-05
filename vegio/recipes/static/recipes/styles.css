@@ -1,0 +1,36 @@
+#index-body {
+    background: url("images/veges.jpg") no-repeat;
+    padding: 0;
+    margin: auto;
+    height: calc(100% - 56px);
+    width: 100%;
+    position: absolute;
+} 
+
+.index-banner {
+    font-weight: bold;
+    font-family: cursive;
+    color: whitesmoke;
+    margin: auto; 
+    text-align: center;
+    margin: auto;
+    margin-top: 4%;
+    font-size: 200px;
+}
+
+.query-wrapper {
+    border: 3px solid grey;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    margin-top: 6%;
+    color: whitesmoke;
+    background-color: darkgreen;
+}
+
+.food-wrapper {
+    border: 1px solid grey;
+    padding: 10px;
+    margin-left: 5%;
+}

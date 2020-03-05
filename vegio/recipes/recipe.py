@@ -29,7 +29,7 @@ def get_food_recipe(food, exclude=None, intolerances=None):
     resp = requests.get(recipe_search, params=params)
     recipes = resp.json()
 
-    result = {}
+    result = []
     # find info for each recipe, and append to result
     try:
         if recipes["code"] == 402:
@@ -45,15 +45,16 @@ def get_food_recipe(food, exclude=None, intolerances=None):
         # recipe request
         resp = requests.get(recipe_info_base + str(recipe["id"]) + "/information", params=params).json()
         # data formatting
-
         data = {
+            "title": resp["title"],
             "summary": resp["summary"],
             "image_url": resp["image"],
             "source_url": resp["sourceUrl"],
             "spoon_id": recipe["id"]
         }
 
-        result[recipe["title"]] = data
+        result.append(data)
+
     print(result)
     return result
 
