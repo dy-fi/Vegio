@@ -1,1 +1,1 @@
-web: gunicorn vegio.wsgi
+web: python vegio/manage.py runserver
