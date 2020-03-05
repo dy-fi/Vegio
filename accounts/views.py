@@ -8,10 +8,9 @@ class SignupView(CreateView):
     form_class = 'django.auth.forms.UserCreationForm'
     template_name = 'registration/signup.html'
 
-class ListRecipes(ListView):
-    template_name = 'registration/list.html'
-    model = Recipe
-    paginate_by = 10
+# class ListRecipes(ListView):
+#     template_name = 'registration/list.html'
+#     model = Recipe
+#     paginate_by = 10
 
-    def get_queryset(self, **kwargs):
-        
+#     def get_queryset(self, **kwargs):
