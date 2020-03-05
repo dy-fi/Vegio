@@ -1,7 +1,7 @@
 import requests
 import json
 
-from . import secrets 
+import secrets 
 
 
 # recipe search URL
