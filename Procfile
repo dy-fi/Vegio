@@ -1,1 +1,1 @@
-web: gunicorn Vegio.vegio.wsgi
+web: gunicorn vegio.vegio.wsgi
