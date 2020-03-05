@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:8000 vegio.vegio.wsgi:application
+web: gunicorn --bind 0.0.0.0:8000 vegio.wsgi:application
