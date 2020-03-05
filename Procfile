@@ -1,1 +1,1 @@
-web: gunicorn vegio
+web: gunicorn vegio:app
