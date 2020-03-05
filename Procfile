@@ -1,1 +1,1 @@
-web: python vegio/manage.py runserver
+web: gunicorn --bind 0.0.0.0:8000 vegio.wsgi
