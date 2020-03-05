@@ -130,4 +130,4 @@ STATICFILES_DIRS = [
     '/recipes/static/images',
 ]
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
