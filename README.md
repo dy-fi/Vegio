@@ -3,6 +3,8 @@ A vegetarian dietary and nutrion app.  Will find vegetarian alternatives and rec
 
 [Proposal](proposal.md)
 
+![index](index.png)
+
 ## Starting in Django
 ```sh
 cd vegio
